@@ -2,10 +2,6 @@
 
 Todo App es una aplicación gratuita de planificación de tareas, minimalista centrada en la experiencia de usuario. Programe sus tareas y proyectos con listas de tareas y un calendario. Disponible para la web.
 
-## Demo
-
-[Todo app web](https://mellow-queijadas-5d3dbc.netlify.app/)
-
 ## Capturas de pantalla
 
 ## ![Inicio](https://firebasestorage.googleapis.com/v0/b/todo-792d2.appspot.com/o/img%2FCaptura.PNG?alt=media&token=bf207b9b-081d-484b-84cf-d02076bd37b0)
