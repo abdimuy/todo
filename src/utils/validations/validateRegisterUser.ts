@@ -1,7 +1,7 @@
 import { UserRegister } from "../../pages/Register/types";
 
-const validateRegisterUser = (user: User) => {
-  const errors: User = {
+const validateRegisterUser = (user: UserRegister) => {
+  const errors: UserRegister = {
     email: "",
     password: "",
     repeatPassword: "",
