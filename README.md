@@ -6,7 +6,7 @@ Todo App es una aplicación gratuita de planificación de tareas, minimalista ce
 
 [Todo app web](https://mellow-queijadas-5d3dbc.netlify.app/)
 
-## Screenshots
+## Capturas de pantalla
 
 ## ![Inicio](https://firebasestorage.googleapis.com/v0/b/todo-792d2.appspot.com/o/img%2FCaptura.PNG?alt=media&token=bf207b9b-081d-484b-84cf-d02076bd37b0)
 
@@ -14,7 +14,7 @@ Todo App es una aplicación gratuita de planificación de tareas, minimalista ce
 
 ![Lista de tareas](https://firebasestorage.googleapis.com/v0/b/todo-792d2.appspot.com/o/img%2FCaptura4.PNG?alt=media&token=5a00e0a6-a94d-48ab-9436-b5f5a27ad93d)
 
-## Installation
+## instalación
 
 Para ejecutar el proyecto de manera local o deséa depurar un problema, querrá obtener la fuente, compilarla y ejecutarla localmente.
 
