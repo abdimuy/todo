@@ -8,6 +8,7 @@ import {
   Box,
   Collapse,
   Flex,
+  Heading,
   Stack,
   Tag,
 } from "@chakra-ui/react";
@@ -15,9 +16,11 @@ import { TodoItem, Spinner } from "../../components";
 import useGetTasks from "../../hooks/useGetTasks";
 import AddTask from "../../components/AddTask";
 import AlertListEmpty from "../../components/AlertListEmpty";
+import useAuth from "../../hooks/useAuth";
 
 const Todo: React.FC = () => {
   const { today, next, finished, isLoadingTasks } = useGetTasks();
+  const { user } = useAuth();
 
   if (isLoadingTasks) {
     return (
@@ -29,6 +32,7 @@ const Todo: React.FC = () => {
 
   return (
     <Stack gap="20px">
+      <Heading>Bienvenido {user?.displayName || user?.email}</Heading>
       <AddTask />
       <Accordion defaultIndex={[0]} allowMultiple maxW="100%">
         <AccordionItem>
